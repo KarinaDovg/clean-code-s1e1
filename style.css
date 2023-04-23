@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .header__link {
+.header__link {
   font-family: "fantasy", cursive;
 }
 
@@ -35,7 +35,8 @@
 }
 
 .input__task,
-.list__item-task {
+.list__item-task,
+.list__item-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -128,7 +129,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
